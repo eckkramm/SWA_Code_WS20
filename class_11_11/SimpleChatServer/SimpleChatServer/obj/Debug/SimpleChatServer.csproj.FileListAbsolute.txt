@@ -1,0 +1,6 @@
+C:\Users\eckkramm\Source\Repos\SimpleChatServer\SimpleChatServer\obj\Debug\SimpleChatServer.csprojAssemblyReference.cache
+C:\Users\eckkramm\Source\Repos\SimpleChatServer\SimpleChatServer\bin\Debug\SimpleChatServer.exe.config
+C:\Users\eckkramm\Source\Repos\SimpleChatServer\SimpleChatServer\bin\Debug\SimpleChatServer.exe
+C:\Users\eckkramm\Source\Repos\SimpleChatServer\SimpleChatServer\bin\Debug\SimpleChatServer.pdb
+C:\Users\eckkramm\Source\Repos\SimpleChatServer\SimpleChatServer\obj\Debug\SimpleChatServer.exe
+C:\Users\eckkramm\Source\Repos\SimpleChatServer\SimpleChatServer\obj\Debug\SimpleChatServer.pdb
