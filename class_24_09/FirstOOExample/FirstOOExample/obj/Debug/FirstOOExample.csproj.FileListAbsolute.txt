@@ -1,0 +1,6 @@
+C:\Users\eckkramm\Source\Repos\FirstOOExample\FirstOOExample\obj\Debug\FirstOOExample.csprojAssemblyReference.cache
+C:\Users\eckkramm\Source\Repos\FirstOOExample\FirstOOExample\bin\Debug\FirstOOExample.exe.config
+C:\Users\eckkramm\Source\Repos\FirstOOExample\FirstOOExample\bin\Debug\FirstOOExample.exe
+C:\Users\eckkramm\Source\Repos\FirstOOExample\FirstOOExample\bin\Debug\FirstOOExample.pdb
+C:\Users\eckkramm\Source\Repos\FirstOOExample\FirstOOExample\obj\Debug\FirstOOExample.exe
+C:\Users\eckkramm\Source\Repos\FirstOOExample\FirstOOExample\obj\Debug\FirstOOExample.pdb
