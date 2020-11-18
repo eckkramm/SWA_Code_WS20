@@ -1,0 +1,9 @@
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\bin\Debug\ConsoleChatclient.exe.config
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\bin\Debug\ConsoleChatclient.exe
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\bin\Debug\ConsoleChatclient.pdb
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\bin\Debug\SimpleChatClient.dll
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\bin\Debug\SimpleChatClient.pdb
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\obj\Debug\ConsoleChatclient.csprojAssemblyReference.cache
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\obj\Debug\ConsoleChatclient.csproj.CopyComplete
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\obj\Debug\ConsoleChatclient.exe
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\ConsoleChatclient\obj\Debug\ConsoleChatclient.pdb

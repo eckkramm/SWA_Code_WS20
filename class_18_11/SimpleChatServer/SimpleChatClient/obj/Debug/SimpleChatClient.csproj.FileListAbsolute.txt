@@ -1,0 +1,5 @@
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\SimpleChatClient\bin\Debug\SimpleChatClient.dll
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\SimpleChatClient\bin\Debug\SimpleChatClient.pdb
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\SimpleChatClient\obj\Debug\SimpleChatClient.csprojAssemblyReference.cache
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\SimpleChatClient\obj\Debug\SimpleChatClient.dll
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_18_11\SimpleChatServer\SimpleChatClient\obj\Debug\SimpleChatClient.pdb
