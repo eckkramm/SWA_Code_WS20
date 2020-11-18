@@ -1,0 +1,16 @@
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\bin\Debug\SimpleWPF_Example.exe.config
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\bin\Debug\SimpleWPF_Example.exe
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\bin\Debug\SimpleWPF_Example.pdb
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\MainWindow.g.cs
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\App.g.cs
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example_MarkupCompile.cache
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example_MarkupCompile.lref
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\MainWindow.baml
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.g.resources
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.Properties.Resources.resources
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.csproj.GenerateResource.Cache
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.csproj.CoreCompileInputs.cache
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.exe
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.pdb
+C:\Users\florian\Source\Repos\SWA_Code_WS20\SimpleWPF_Example\SimpleWPF_Example\obj\Debug\SimpleWPF_Example.csprojResolveAssemblyReference.cache
