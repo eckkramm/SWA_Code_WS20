@@ -1,0 +1,6 @@
+C:\Users\eckkramm\Source\Repos\OurFirstApplication\OurFirstApplication\obj\Debug\OurFirstApplication.csprojAssemblyReference.cache
+C:\Users\eckkramm\Source\Repos\OurFirstApplication\OurFirstApplication\bin\Debug\OurFirstApplication.exe.config
+C:\Users\eckkramm\Source\Repos\OurFirstApplication\OurFirstApplication\bin\Debug\OurFirstApplication.exe
+C:\Users\eckkramm\Source\Repos\OurFirstApplication\OurFirstApplication\bin\Debug\OurFirstApplication.pdb
+C:\Users\eckkramm\Source\Repos\OurFirstApplication\OurFirstApplication\obj\Debug\OurFirstApplication.exe
+C:\Users\eckkramm\Source\Repos\OurFirstApplication\OurFirstApplication\obj\Debug\OurFirstApplication.pdb
