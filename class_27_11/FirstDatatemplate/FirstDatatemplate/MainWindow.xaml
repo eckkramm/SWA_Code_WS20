@@ -39,18 +39,53 @@
             <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding NewItem.Description}"/>
 
             <Label Grid.Row="2" Content="Menge" Margin="5"/>
-            <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding NewItem.Amount}"/>
+            <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding NewItem.Amount, UpdateSourceTrigger=PropertyChanged}"/>
 
             <Label Grid.Row="3" Content="Priorität" Margin="5"/>
             <ComboBox Grid.Row="3" Grid.Column="1" Margin="5" SelectedItem="{Binding NewItem.Prio}" ItemsSource="{Binding PrioList}"/>
 
             <Label Grid.Row="4" Content="Preis" Margin="5"/>
-            <TextBox Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding NewItem.Price}"/>
+            <TextBox Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding NewItem.Price, UpdateSourceTrigger=PropertyChanged}"/>
             
             <Label Grid.Row="5" Content="Gesamtpreis" Margin="5"/>
             <Label Grid.Row="5" Grid.Column="1" Margin="5" Content="{Binding NewItem.FullPrice, Mode=OneWay}"/>
         </Grid>
-        <ListBox Grid.Column="1" Margin="5" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding Items}"/>
+        <!--<ListBox Grid.Column="1" Margin="5" SelectedItem="{Binding SelectedItem}"  ItemsSource="{Binding Items}">-->
+        <ItemsControl Grid.Column="1" Margin="5" ItemsSource="{Binding Items}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="5" Height="100" Width="100" CornerRadius="5" BorderThickness="1" BorderBrush="Black">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Content="{Binding OrderId}" Margin="5" Grid.ColumnSpan="2"/>
+                            <TextBox Grid.Row="1" Margin="5" Text="{Binding Description}"/>
+                            <Button Content="D" Grid.Column="1" Grid.Row="1" Margin="5" CommandParameter="{Binding}" Command="{Binding DataContext.DeleteBtnClickCmd2, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"/>
+                            <Border CornerRadius="3" Margin="2" BorderThickness="1" BorderBrush="Black" Grid.Row="2" Grid.ColumnSpan="2">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Label Content="{Binding Amount}"/>
+                                    <Label Content="{Binding Price}"/>
+                                    <Label Content="{Binding FullPrice}"/>
+                                </StackPanel>
+                            </Border>
+                           
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
         <Button Grid.Column="0" Grid.Row="1" Content="Hinzufügen" Margin="5" Width="80" HorizontalAlignment="Right" Command="{Binding AddBtnClickCmd}"/>
         <Button Grid.Column="1" Grid.Row="1" Content="Löschen" Margin="5" Width="80" HorizontalAlignment="Right" Command="{Binding DeleteBtnClickCmd}"/>
 
