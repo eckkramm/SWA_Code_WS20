@@ -1,4 +1,5 @@
 using CommonServiceLocator;
+using FirstMultiVmApp.Navigators;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 using System;
@@ -9,7 +10,7 @@ namespace FirstMultiVmApp.ViewModel
     public class MainViewModel : ViewModelBase
     {
         private ViewModelBase currentDetail;
-
+        private INavigator navigator = new Navigator();
         public ViewModelBase CurrentDetail
         {
             get { return currentDetail; }
@@ -20,27 +21,10 @@ namespace FirstMultiVmApp.ViewModel
 
         public MainViewModel()
         {
-            ContentSwitcher("masterdata");
-            MenuBtnClickCmd = new RelayCommand<string>(ContentSwitcher);
+            CurrentDetail = navigator.Navigate("masterdata");
+            MenuBtnClickCmd = new RelayCommand<string>((p) => { CurrentDetail = navigator.Navigate(p); });
         }
 
-        private void ContentSwitcher(string obj)
-        {
-            switch (obj)
-            {
-                case "masterdata":
-                    CurrentDetail = ServiceLocator.Current.GetInstance<MasterDataVm>();
-                    break;
-                case "reports":
-                    CurrentDetail = ServiceLocator.Current.GetInstance<ReportVm>();
-                    break;
-                case "dynamicdata":
-                    CurrentDetail = ServiceLocator.Current.GetInstance<DynamicDataVm>();
-                    break;
-                default:
-                    CurrentDetail = ServiceLocator.Current.GetInstance<MasterDataVm>();
-                    break;
-            }
-        }
+
     }
 }

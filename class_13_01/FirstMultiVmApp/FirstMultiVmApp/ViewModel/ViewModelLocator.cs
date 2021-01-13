@@ -15,7 +15,7 @@
 using CommonServiceLocator;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-
+using GalaSoft.MvvmLight.Messaging;
 
 namespace FirstMultiVmApp.ViewModel
 {
@@ -32,12 +32,10 @@ namespace FirstMultiVmApp.ViewModel
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
-            
-
             SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<MasterDataVm>(true);
             SimpleIoc.Default.Register<ReportVm>();
-            SimpleIoc.Default.Register<DynamicDataVm>();
+            SimpleIoc.Default.Register<DynamicDataVm>(true);
         }
 
         public MainViewModel Main

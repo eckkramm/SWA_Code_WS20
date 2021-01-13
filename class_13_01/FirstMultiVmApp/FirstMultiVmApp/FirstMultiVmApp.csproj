@@ -70,9 +70,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Navigators\INavigator.cs" />
+    <Compile Include="Navigators\Navigator.cs" />
     <Compile Include="ViewModel\DynamicDataVm.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MasterDataVm.cs" />
+    <Compile Include="ViewModel\PersonVm.cs" />
     <Compile Include="ViewModel\ReportVm.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="Views\DynamicDataView.xaml.cs">

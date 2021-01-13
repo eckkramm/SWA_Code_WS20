@@ -6,7 +6,9 @@
              xmlns:local="clr-namespace:FirstMultiVmApp.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" DataContext="{Binding DynData, Mode=OneWay, Source={StaticResource Provider}}">
-    <Grid>
-        <Label Content="Dynamic Data" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-    </Grid>
+    <StackPanel>
+        <Label Content="Dynamic Data" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+        <Label Content="{Binding DynamicData}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+    </StackPanel>
 </UserControl>

@@ -10,7 +10,10 @@
              d:DesignHeight="450" d:DesignWidth="800" 
     DataContext="{Binding MasterData, Mode=OneWay, Source={StaticResource Provider}}">
 
-    <Grid Background="LightGreen">
+    <StackPanel Background="LightGreen">
         <Label Content="Stammdaten" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-    </Grid>
+        <TextBox Text="{Binding DemoData, UpdateSourceTrigger=PropertyChanged}" Width="150" Margin="10" Height="25"/>
+        <Button Command="{Binding SaveBtnClickedCmd}" Height="35" Width="100" Content="Save" Margin="10"/>
+
+    </StackPanel>
 </UserControl>
