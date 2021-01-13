@@ -1,0 +1,6 @@
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_02_12\VmResourceManager\VmRequestor\bin\Debug\VmRequestor.exe.config
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_02_12\VmResourceManager\VmRequestor\bin\Debug\VmRequestor.exe
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_02_12\VmResourceManager\VmRequestor\bin\Debug\VmRequestor.pdb
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_02_12\VmResourceManager\VmRequestor\obj\Debug\VmRequestor.csprojAssemblyReference.cache
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_02_12\VmResourceManager\VmRequestor\obj\Debug\VmRequestor.exe
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_02_12\VmResourceManager\VmRequestor\obj\Debug\VmRequestor.pdb
