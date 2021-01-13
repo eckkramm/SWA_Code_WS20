@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\eckkramm\Source\Repos\FirstMultiVmApp\FirstMultiVmApp\obj\Debug\
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_13_01\FirstMultiVmApp\FirstMultiVmApp\obj\Debug\
 FirstMultiVmApp
 none
 false
 DEBUG;TRACE
-C:\Users\eckkramm\Source\Repos\FirstMultiVmApp\FirstMultiVmApp\App.xaml
-31007786187
+C:\Users\eckkramm\Source\Repos\SWA_Code_WS20\class_13_01\FirstMultiVmApp\FirstMultiVmApp\App.xaml
+4-1563628555
 
-111467292529
-122432947449
-MainWindow.xaml;Views\MasterDataView.xaml;Views\ReportView.xaml;
+13-198513829
+122-1272540824
+MainWindow.xaml;Views\DynamicDataView.xaml;Views\MasterDataView.xaml;Views\ReportView.xaml;
 
 False
 

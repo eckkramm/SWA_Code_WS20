@@ -15,9 +15,9 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-            <Button Content="Stammdaten" Height="40" Width="100" Margin="10"/>
-            <Button Content="Bewegungsdaten" Height="40" Width="100" Margin="10"/>
-            <Button Content="Berichte" Height="40" Width="100" Margin="10"/>
+            <Button Content="Stammdaten" Command="{Binding MenuBtnClickCmd}" CommandParameter="masterdata" Height="40" Width="100" Margin="10"/>
+            <Button Content="Bewegungsdaten" Command="{Binding MenuBtnClickCmd}" CommandParameter="dynamicdata" Height="40" Width="100" Margin="10"/>
+            <Button Content="Berichte" Command="{Binding MenuBtnClickCmd}" CommandParameter="reports" Height="40" Width="100" Margin="10"/>
         </StackPanel>
         <!--<Border Background="Wheat" Grid.Column="1" CornerRadius="150,0,0,0" BorderBrush="Black" BorderThickness="2">-->
         <ContentControl Grid.Column="1" Margin="5" Content="{Binding CurrentDetail}">
@@ -25,7 +25,10 @@
                 <DataTemplate DataType="{x:Type vm:MasterDataVm}">
                     <views:MasterDataView/>
                 </DataTemplate>
-
+                <DataTemplate DataType="{x:Type vm:DynamicDataVm}">
+                    <views:DynamicDataView/>
+                    
+                </DataTemplate>
                 <DataTemplate DataType="{x:Type vm:ReportVm}">
                     <views:ReportView/>
                 </DataTemplate>

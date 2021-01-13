@@ -70,10 +70,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\DynamicDataVm.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MasterDataVm.cs" />
     <Compile Include="ViewModel\ReportVm.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
+    <Compile Include="Views\DynamicDataView.xaml.cs">
+      <DependentUpon>DynamicDataView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MasterDataView.xaml.cs">
       <DependentUpon>MasterDataView.xaml</DependentUpon>
     </Compile>
@@ -92,6 +96,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\DynamicDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MasterDataView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

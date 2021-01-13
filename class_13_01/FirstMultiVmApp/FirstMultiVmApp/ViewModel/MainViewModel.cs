@@ -20,13 +20,27 @@ namespace FirstMultiVmApp.ViewModel
 
         public MainViewModel()
         {
-            CurrentDetail = ServiceLocator.Current.GetInstance<ReportVm>();
+            ContentSwitcher("masterdata");
             MenuBtnClickCmd = new RelayCommand<string>(ContentSwitcher);
         }
 
         private void ContentSwitcher(string obj)
         {
-            throw new NotImplementedException();
+            switch (obj)
+            {
+                case "masterdata":
+                    CurrentDetail = ServiceLocator.Current.GetInstance<MasterDataVm>();
+                    break;
+                case "reports":
+                    CurrentDetail = ServiceLocator.Current.GetInstance<ReportVm>();
+                    break;
+                case "dynamicdata":
+                    CurrentDetail = ServiceLocator.Current.GetInstance<DynamicDataVm>();
+                    break;
+                default:
+                    CurrentDetail = ServiceLocator.Current.GetInstance<MasterDataVm>();
+                    break;
+            }
         }
     }
 }

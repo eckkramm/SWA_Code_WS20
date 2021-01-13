@@ -37,6 +37,7 @@ namespace FirstMultiVmApp.ViewModel
             SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<MasterDataVm>(true);
             SimpleIoc.Default.Register<ReportVm>();
+            SimpleIoc.Default.Register<DynamicDataVm>();
         }
 
         public MainViewModel Main
@@ -50,6 +51,13 @@ namespace FirstMultiVmApp.ViewModel
         public MasterDataVm MasterData
         {
             get { return ServiceLocator.Current.GetInstance<MasterDataVm>();
+            }
+        }
+        public DynamicDataVm DynData
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<DynamicDataVm>();
             }
         }
 
